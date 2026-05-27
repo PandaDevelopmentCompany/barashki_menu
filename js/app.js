@@ -6,6 +6,7 @@ const menu = [
     id: 1,
     name: "Ветчина и грибы",
     price: 345,
+    cookTime: "33 мин",
     category: "Пицца",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/0ef4125a-0c47-4af6-98e5-0df19ac0b196.jpg",
     description: "Нежная ветчина, шампиньоны и тянущийся сыр."
@@ -14,6 +15,7 @@ const menu = [
     id: 2,
     name: "Гавайская",
     price: 395,
+    cookTime: "24 мин",
     category: "Пицца",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/0fb45c4a-21cc-458b-86f1-1349430f90c0.jpg",
     description: "Сочная курица, ананасы и сыр моцарелла."
@@ -22,6 +24,7 @@ const menu = [
     id: 3,
     name: "Мясная",
     price: 450,
+    cookTime: "35 мин",
     category: "Пицца",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/fd94e36b-2c0b-4b7c-8c21-62e30f7153b8.jpg",
     description: "Несколько видов мяса для настоящих гурманов."
@@ -30,6 +33,7 @@ const menu = [
     id: 4,
     name: "Пепперони",
     price: 400,
+    cookTime: "34 мин",
     category: "Пицца",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/814436d7-1010-42a5-8f71-00b22819ff7b.jpg",
     description: "Классическая пицца с острой пепперони."
@@ -40,6 +44,7 @@ const menu = [
     id: 5,
     name: "ORIGINAL Бургер",
     price: 390,
+    cookTime: "35 мин",
     category: "Бургеры",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/05411e07-8a23-4142-ac28-d4e26c518068.jpg",
     description: "Фирменный бургер с сочной котлетой."
@@ -48,6 +53,7 @@ const menu = [
     id: 6,
     name: "Двойной чизбургер",
     price: 495,
+    cookTime: "32 мин",
     category: "Бургеры",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/ec661572-9d1b-4ab0-ab32-19a6fd8090c7.jpg",
     description: "Двойная котлета и много сыра."
@@ -56,6 +62,7 @@ const menu = [
     id: 7,
     name: "Роял бургер",
     price: 450,
+    cookTime: "35 мин",
     category: "Бургеры",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/bf747938-2edb-4695-a52d-9042b2b00858.jpg",
     description: "Большой бургер с фирменным соусом."
@@ -64,6 +71,7 @@ const menu = [
     id: 8,
     name: "Чикенбургер",
     price: 390,
+    cookTime: "16 мин",
     category: "Бургеры",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/4c568acf-0426-4660-b857-6c7c84ea252c.jpg",
     description: "Хрустящая курочка и свежие овощи."
@@ -74,6 +82,7 @@ const menu = [
     id: 9,
     name: "Бейгл с лососем",
     price: 590,
+    cookTime: "19 мин",
     category: "Завтраки",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/99fb67f2-892e-402a-b47a-056cc59c1c0d.jpg",
     description: "Свежий бейгл с лососем и сливочным сыром."
@@ -82,6 +91,7 @@ const menu = [
     id: 10,
     name: "Сладкие панкейки",
     price: 199,
+    cookTime: "19 мин",
     category: "Завтраки",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/b011901c-f29d-4934-b22a-64f7441aea8b.jpg",
     description: "Воздушные панкейки с сиропом."
@@ -90,6 +100,7 @@ const menu = [
     id: 11,
     name: "Сладкий сэндвич с бананом и голубикой",
     price: 250,
+    cookTime: "20 мин",
     category: "Завтраки",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/7e24a281-238b-4fa0-9e70-2b2399dd203b.jpg",
     description: "Нежный сладкий сэндвич с ягодами."
@@ -98,6 +109,7 @@ const menu = [
     id: 12,
     name: "Сэндвич с яйцом",
     price: 350,
+    cookTime: "24 мин",
     category: "Завтраки",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/a332a254-1519-458c-8d87-e6e9341d0721.jpg",
     description: "Сытный сэндвич с яйцом и соусом."
@@ -108,6 +120,7 @@ const menu = [
     id: 13,
     name: "Кейк со свежей малиной",
     price: 390,
+    cookTime: "23 мин",
     category: "Десерты",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/a389cfe9-4715-4a16-b8ea-74747f9b260c.jpg",
     description: "Нежный десерт со свежей малиной."
@@ -116,6 +129,7 @@ const menu = [
     id: 14,
     name: "Малиновый сорбет",
     price: 230,
+    cookTime: "21 мин",
     category: "Десерты",
     image: "https://media-cdn.restik.com/pl_demo_vitrina_usp5vqldi/816ba522-76fb-4b7e-97f2-75b72580e049.jpg",
     description: "Освежающий ягодный сорбет."
@@ -230,8 +244,13 @@ function renderMenu() {
     card.className = "card";
 
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.name}" />
+      <div class="image-wrapper">
+        <img src="${item.image}" alt="${item.name}" />
 
+        <div class="cook-time">
+          ⏱ ${item.cookTime}
+        </div>
+      </div>
       <div class="card-content">
         <h3 class="card-title">${item.name}</h3>
 
